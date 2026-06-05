@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe Htet | Offensive Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">MOE HTET AR KAR (PHOE CHO)</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#labs">Labs</a></li>
+        <li><a href="#certs">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle">☀️</button>
+</nav>
+
+<header class="hero">
+    <h1 class="glitch" data-text="Offensive Security Engineer">Offensive Security Engineer</h1>
+    <p>API Security • Automation • Vulnerability Research</p>
+</header>
+
+<section id="about" class="reveal">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p class="bio-text">
+                I am a <strong>Cybersecurity Engineer & Python Developer</strong> dedicated to bridging the gap between offensive security and system automation. My focus lies in <strong>Vulnerability Research, API Security, and Malware Analysis</strong>, where I build custom tools to simulate advanced threats and strengthen defense architectures.
+            </p>
+            <p class="bio-text">
+                With a deep background in <strong>Red Teaming</strong> and <strong>Custom Security Tooling</strong>, I don't just use existing scanners—I build them. My approach combines "hacker logic" with professional engineering to develop modular frameworks like <strong>VulcanX</strong>, aimed at automating complex reconnaissance and security assessments.
+            </p>
+            <p class="bio-text">
+                I am constantly evolving in the fast-paced security landscape, currently honing my skills in <strong>Defensive Monitoring</strong> and <strong>Windows Internal Security</strong> to provide a holistic, 360-degree security perspective.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="reveal">
+    <h2>Core Security Frameworks & Tools</h2>
+    <div class="grid">
+
+        <div class="card primary-card">
+            <div class="status-dot"></div>
+            <div class="tag">Flagship Framework</div>
+            <h3>VulcanX v2.0.0 (Sovereign Edition)</h3>
+            <p>An enterprise-grade, modular security reconnaissance and vulnerability analysis ecosystem. Engineered with a high-concurrency Python backend using ThreadPoolExecutor for multi-threaded TCP scanning alongside advanced socket-level banner grabbing for service fingerprinting.</p>
+            <p style="margin-top: 10px;">Features a dual-vector injection matrix supporting heuristic error-based analysis and advanced time-based blind SQLi detection. Integrates a zero-dependency Vanilla JS & Tailwind CSS cyber-terminal console with persistent logging and structured JSON reporting modules for compliance auditing.</p>
+            <div class="card-links" style="margin-top: 15px;">
+                <a href="https://github.com/moe1112025/Vulcan-X.git" target="_blank" class="btn-link">[ SOURCE_CODE ]</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">Behavioral Threat Emulation</div>
+            <h3>GHOST-LOG Enterprise v3.0.0</h3>
+            <p>An advanced EDR and behavioral threat emulation framework. Features asynchronous multi-threaded exfiltration pipelines, real-time process-aware context mapping, and secure in-memory telemetry shielding utilizing Fernet symmetric cryptography.</p>
+            <div class="card-links">
+                <a href="https://github.com/moe1112025/Malware-Analyst-Key-Logger-.git" target="_blank" class="btn-link">[ SOURCE_CODE ]</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">Cryptographic Auditing</div>
+            <h3>PRO Password Analyzer v2.0.0</h3>
+            <p>A rigorous credential auditing utility leveraging dual-layer entropy evaluation—combining standard pool complexity math with true Shannon Information Entropy distribution rules. Simulates automated GPU cracking timelines (100 GH/s) alongside deterministic heuristic pattern intelligence metrics.</p>
+            <div class="card-links">
+                <a href="https://github.com/moe1112025/PRO-Password-Analyzer.git" target="_blank" class="btn-link">[ SOURCE_CODE ]</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="labs" class="reveal">
+    <h2>Active Security Labs</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">Network Traffic Analysis</div>
+            <h3>Network Traffic Analysis & Defensive Monitoring</h3>
+            <p>Real-time traffic inspection Reconnaissance using Native Window Tools(Pktmon) and Nmap with unauthorized scan detection.</p>
+            <div class="card-links">
+                <a href="https://drive.google.com/file/d/1DnB5QPM8x7PoG-Wb7sqUF664bAgPFfvj/view?usp=drive_link" target="_blank">[ VIEW_DEMO ]</a>
+                <a href="https://drive.google.com/file/d/1UGx_WnH817fhp2NKMZ95pt5HBbm8ArZ4/view?usp=drive_link" target="_blank">[ READ_REPORT ]</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">API Security</div>
+            <h3>API Pentesting</h3>
+            <p>Broken Object Level Authorization (BOLA) & SQLi on RESTful APIs (Python - Flask).</p>
+            <div class="card-links">
+                <a href="https://drive.google.com/file/d/1Epyb8reGKkWkz4C4NimHu4EsgzSbSFFd/view?usp=drive_link" target="_blank">[ VIEW_DEMO ]</a>
+                <a href="https://drive.google.com/file/d/1pskxkbeUzV_E3S8zwt9eUd5wDS0OliZB/view?usp=drive_link" target="_blank">[ READ_REPORT ]</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">Windows Security</div>
+            <h3>Windows 11 Local Privilege Escalation(LPE)</h3>
+            <p>Attack exploits Insecure Folder Permissions (CWE-276) associated with a system service, allowing for a Binary Hijacking maneuver to gain the highest level of administrative access.</p>
+            <div class="card-links">
+                <a href="https://drive.google.com/file/d/15mmvyUSVfplP2dtKTMwwm52__Tjcgngu/view?usp=drive_link" target="_blank">[ VIEW_DEMO ]</a>
+                <a href="https://drive.google.com/file/d/1bqdGl-xNYIPpD2EcokgD5G8lN4Z_xinM/view?usp=drive_link" target="_blank">[ READ_REPORT ]</a>
+            </div>
+        </div>        
+
+        <div class="card">
+            <div class="status-dot"></div>
+            <div class="tag">Web Application Security</div>
+            <h3>Critical Endpoint Assessment</h3>
+            <p>A security assessment of the application’s API endpoints identified multiple critical vulnerabilities that could allow an attack.</p>
+            <div class="card-links">
+                <a href="https://drive.google.com/file/d/1419d3xMmaEBNFA--Tdlo-GrJt34fl0r1/view?usp=drive_link" target="_blank">[ VIEW_DEMO ]</a>
+                <a href="https://drive.google.com/file/d/1wQ1VqkFPOX3O8AzYP1DSJFrGo314pykW/view?usp=drive_link" target="_blank">[ READ_REPORT ]</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certs" class="reveal">
+    <h2>Professional Certifications</h2>
+    <div class="grid">
+        
+        <div class="card cert-card">
+            <div class="status-dot"></div>
+            <div class="tag">Security Analysis</div>
+            <img src="https://images.credly.com/size/680x680/images/ef9f86ad-4e53-4dbc-8951-e4cab81ff09e/blob" alt="Google" class="cert-icon">
+            <h3>Google Cybersecurity Professional</h3>
+            <p>Hands-on expertise in <strong>SIEM (Chronicle)</strong>, IDS/IPS, and packet analysis. Focused on threat hunting, incident response, and security automation with <strong>Python</strong>.</p>
+            <a href="https://www.credly.com/badges/2dbb7724-6ad8-48f8-89b3-ddfd74db75ea/linked_in_profile" target="_blank" class="verify-btn">VERIFY_CREDENTIAL</a>
+        </div>
+
+        <div class="card cert-card">
+            <div class="status-dot"></div>
+            <div class="tag">System Automation</div>
+            <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~M0WMXT4H90JV/CERTIFICATE_LANDING_PAGE~M0WMXT4H90JV.jpeg" alt="PowerShell" class="cert-icon">
+            <h3>PowerShell Scripting Specialization</h3>
+            <p>Advanced mastery in <strong>Windows Management Instrumentation (WMI)</strong> and task automation. Implementing secure scripts for system administration and <strong>Post-Exploitation</strong> workflows.</p>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/M0WMXT4H90JV" target="_blank" class="verify-btn">VERIFY_CREDENTIAL</a>
+        </div>
+
+        <div class="card cert-card">
+            <div class="status-dot"></div>
+            <div class="tag">Offensive Security</div>
+            <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3IY4SEI4F1SM/CERTIFICATE_LANDING_PAGE~3IY4SEI4F1SM.jpeg" alt="Kali" class="cert-icon">
+            <h3>Ethical Hacking & Pentesting</h3>
+            <p>Practical application of the <strong>Cyber Attack Lifecycle</strong> using Kali Linux. Expertise in vulnerability research, <strong>Network Exploitation</strong>, and advanced reconnaissance techniques.</p>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/3IY4SEI4F1SM" target="_blank" class="verify-btn">VERIFY_CREDENTIAL</a>
+        </div>
+
+        <div class="card cert-card">
+            <div class="status-dot"></div>
+            <div class="tag">Pentesting Standard</div>
+            <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~47RRHLRSA1Q6/CERTIFICATE_LANDING_PAGE~47RRHLRSA1Q6.jpeg" alt="CompTIA" class="cert-icon">
+            <h3>CompTIA PenTest+ (PT0-002)</h3>
+            <p>Validated skills in <strong>Penetration Testing Management</strong>. Managing weaknesses, performing cloud/mobile assessments, and generating professional <strong>Technical Security Reports</strong>.</p>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/47RRHLRSA1Q6" target="_blank" class="verify-btn">VERIFY_CREDENTIAL</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills" class="reveal">
+    <h2>Core Competencies</h2>
+    <div class="grid">
+        <div class="skill-box">
+            <div class="status-dot"></div>
+            <h4><span class="accent-text">01.</span> Development & Automation</h4>
+            <p>Python (OOP), Bash Scripting, Security Tooling, API Automation</p>
+        </div>
+
+        <div class="skill-box">
+            <div class="status-dot"></div>
+            <h4><span class="accent-text">02.</span> Offensive Operations</h4>
+            <p>Metasploit Framework, Burp Suite Professional, Hydra, Nmap, WireShark</p>
+        </div>
+
+        <div class="skill-box">
+            <div class="status-dot"></div>
+            <h4><span class="accent-text">03.</span> Security Analysis</h4>
+            <p>Malware Analysis, Traffic Inspection, Vulnerability Research</p>
+        </div>
+    </div>
+
+    <div class="learning-bio">
+        <p class="terminal-text">> [STATUS]: Active Learner & Security Researcher</p>
+        <p>Expertise in rapid technical acquisition and high-level security architecture analysis.</p>
+    </div>
+</section>
+
+<section id="contact" class="reveal">
+    <h2>Connect with Moe Htet</h2>
+    <div class="contact-container">
+        <p class="contact-sub">Interested in collaboration or security consulting? Reach out via the channels below.</p>
+        
+        <div class="contact-grid">
+            <a href="mailto:moehtetarkar259@gmail.com?subject=Security Project Inquiry&body=Hello Moe Htet," class="contact-btn email-btn">
+                <span class="icon">📩</span>
+                <div class="btn-text">
+                    <span>Email Me</span>
+                    <small>moehtetarkar259@gmail.com</small>
+                </div>
+            </a>
+
+            <a href="https://github.com/moe1112025" target="_blank" class="contact-btn github-btn">
+                <span class="icon">💻</span>
+                <div class="btn-text">
+                    <span>GitHub Profile</span>
+                    <small>github.com/moe1112025</small>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
